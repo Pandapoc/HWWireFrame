@@ -1,1 +1,86 @@
-
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5px
+}
+.grid1{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    border-radius: 16px;
+    background-color: gray;
+}
+.grid2{
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    border-radius: 16px;
+    background-color:  gray;
+}
+.grid3{
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 2;
+    border-radius: 16px;
+    background-color: gray;
+}
+.grid4{
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 2;
+    border-radius: 16px;
+    background-color: gray;
+}
+.grid5{
+    grid-column: 1 / span 2;
+    grid-row: 5 / span 1;
+    border-radius: 16px;
+    background-color: gray;
+}
+.grid6{
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+    border-radius: 16px;
+    background-color: gray;
+}
+.body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18;
+    text-align: center;
+}
+.header{
+    background-color: darkgray;
+}
+.nav{
+    background-color: lightgray;
+}
+.section{
+    background-color: lightblue;
+}
+.aside{
+    background-color: skyblue;
+}
+.foot{
+    background-color: black;
+    color: white;
+}
+.article{
+    margin-top: 10px;
+    background-color: rgb(233, 217, 217);
+    color: rgb(194, 26, 26);
+}
+.h1{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+}
+.h2{
+    color: white;
+}
+.p{ 
+    background-color: darkslategray;
+    color: white;
+    width: 80%;
+    margin: 10%;
+    border-radius: 16px;
+}
